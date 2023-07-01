@@ -1,0 +1,21 @@
+.container {
+  --bs-gutter-x: 11   .5rem;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar {
+  display: flex;
+  gap: 10px;
+}
+
+.navbarLink {
+  display: grid;
+  justify-self: center;
+}
+
+.activeLink {
+  color: #469AFF;
+}
