@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 
 import styles from 'styles/Navbar.module.css';
 
-export default function ActiveLink({ text, href }) {
+const ActiveLink = ({ text, href }) => {
 
     const { asPath } = useRouter();
 
@@ -18,3 +18,5 @@ export default function ActiveLink({ text, href }) {
         </Link>
     );
 }
+
+export default ActiveLink;
